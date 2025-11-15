@@ -33,7 +33,7 @@ int main() {
   // Área para exibição dos dados da cidade
   printf("Agora que possuimos todos os dados da carta, segue apresentação :-)\n\n");
   printf("------         %c0%d : %s         ------\n\n", estado, num_cod, nome_cidade);
-  printf("População: %d\tPontos Turísticos: %d\nÁrea: %.2f km²\tPIB: R$ %.2f Milhões de Reais\n\n", populacao, pnt_turisticos, area, pib);
+  printf("\tPopulação: %d\n\tPontos Turísticos: %d\n\tÁrea: %.2f km²\n\tPIB: R$ %.2f Milhões de Reais\n\n", populacao, pnt_turisticos, area, pib);
   printf("------         %c0%d : %s         ------\n\n", estado, num_cod, nome_cidade);
   return 0;
   }
