@@ -29,6 +29,7 @@ int main() {
   scanf("%f", &pib);
   printf("Qual a quantidade de pontos turísticos? ");
   scanf("%d", &pnt_turisticos);
+
   dens_pop = populacao / area;
   pib_pessoa = pib * 1000000 / populacao;
 
