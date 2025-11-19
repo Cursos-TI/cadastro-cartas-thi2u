@@ -33,11 +33,10 @@ int main() {
   dens_pop1 = populacao1 / area1;
   pib_pessoa1 = pib1 * 1000000 / populacao1;
   s_poder1 = populacao1+pnt_turisticos1+area1+pib1+dens_pop1+pib_pessoa1;
-  s_poder2 = populacao2+pnt_turisticos2+area2+pib2+dens_pop2+pib_pessoa2;
 
   // Cadastro da Segunda Carta
   printf("Agora vamos ao cadastro da segunda carta, portanto precisaremos seguir as mesmas regras estabelecidas anteriormente. Não se preocupe, no momento eu lhe lembro.\nVamos lá! Começando pelo código do estado. Os códigos são compostos por uma letra e um inteiro.\nOs estados se dividem em 8, listados alfabeticamente de A a H.\n Digite a letra do Estado: ");
-scanf("%c", &estado2);
+  scanf("%c", &estado2);
   printf("Perfeito! Agora digite o inteiro. Escolha um número de 1 a 4: ");
   scanf("%d", &num_cod2);
   printf("Perfeito!\nO código da carta será: %c0%d.\nAgora precisamos do nome da cidade. Para escolher o nome da cidade peço que se atente a algumas regras:\n1- Não utilize espaços, prefira underlines\n2- Não pode passar de 20 caracteres\nQual o nome da cidade? ", estado2, num_cod2);
@@ -52,6 +51,7 @@ scanf("%c", &estado2);
   scanf("%d", &pnt_turisticos2);
   dens_pop2 = populacao2 / area2;
   pib_pessoa2 = pib2 * 1000000 / populacao2;
+  s_poder2 = populacao2+pnt_turisticos2+area2+pib2+dens_pop2+pib_pessoa2;
 
   // Área para exibição dos dados da cidade
   printf("Agora que possuimos todos os dados da carta, segue apresentação da Primeira Carta :-)\n\n");
